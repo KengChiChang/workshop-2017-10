@@ -9,15 +9,15 @@ institute: "National Taiwan University"
 
 - Calculate number of shared users between pages
 
-            |   Trump    |  FoxNews  |  Clinton  |  NYTimes
-------------|------------|-----------|-----------|----------
-      Trump |    2243216 |   1078513 |     32731 |    25842
-    FoxNews |    1078513 |   2449174 |     87084 |    63401
-    Clinton |      32731 |     87084 |   1768980 |   367021
-    NYTimes |      25842 |     63401 |    367021 |   986613
+|            |   Trump    |  FoxNews  |  Clinton  |  NYTimes |
+|------------|------------|-----------|-----------|----------|
+|      Trump |    2243216 |   1078513 |     32731 |    25842 |
+|    FoxNews |    1078513 |   2449174 |     87084 |    63401 |
+|    Clinton |      32731 |     87084 |   1768980 |   367021 |
+|    NYTimes |      25842 |     63401 |    367021 |   986613 |
 
 - For large matrix, can run out of memory even with sparse matrix
-- 0.3 billion users $\times$ 2000 pages $\times$ 5% non-zero elements $\times$ 4 Byte $\div$ 1024 (KB) $\div$ 1024 (MB) $\div$ 1024 (GB) $\approx$ 112 GB use of memory
+- 0.3 billion users * 2000 pages * 5% non-zero elements * 4 Byte / 1024 (KB) / 1024 (MB) / 1024 (GB) / 112 GB use of memory
 - Strategy: User SQL to group by users first
 
 # SQL (Structured Query Language)
@@ -39,7 +39,7 @@ WHERE
   data.type = "LIKE"
 ```
 
- $\rightarrow$ [ntufbdata:USdata.old_1000_user_post_like]
+ -> [ntufbdata:USdata.old_1000_user_post_like]
 
 - In Google BigQuery: [ProjectID:DatasetID.TableID]
 
