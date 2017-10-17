@@ -59,8 +59,8 @@ for (i in 1:5) {
                                                 ideology_vec[i-1], 
                                                 "AND", 
                                                 ideology_vec[i]),
-                          destinationTableId = paste0("politician_group", i-1), 
-                          writeDisposition = "WRITE_TRUNCATE")
+                         destinationTableId = paste0("politician_group", i-1), 
+                         writeDisposition = "WRITE_TRUNCATE")
   bqr_wait_for_job(job)
 }
 ```
