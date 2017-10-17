@@ -19,20 +19,22 @@ institute: "National Taiwan University"
 Ex. [Donald J. Trump](http://www.facebook.com/153080620724)
 
 - page_id: "153080620724"
+    - You can see from `www.facebook.com/[page_id]`
 - page_name: "Donald J. Trump"
 - page_fan_count: 22,813,525
-- page_url: `www.facebook.com/DonaldTrump` or `/[page_id]`
+- page_url: `www.facebook.com/DonaldTrump`
 - page_category: "Public Figure"
 
 # Post (Link / Photo / Video / Status)
 
-Ex. [9GAG: Official White House Photographer Reveals His Favourite Photos Of Obama](http://www.facebook.com/21785951839_10155113971791840)
+Ex. [White House Photographer Reveals Favourite Photos Of Obama](http://www.facebook.com/21785951839_10155113971791840)
 
 - post_id: "153080620724" or "21785951839_153080620724"
-- post_type: "link"
+    - You can see from `www.facebook.com/[post_id]`
 - post_name: "Official White House Photographer Reveals His Favourite Photos Of Obama"
+- post_message: "Obama is the coolest president in history..."
 - post_description: "Click to see the pic and write a comment..."
-- post_caption: "9gag.com"
+- post_caption: "9gag.com", post_type: "link"
 - post_link: `http://9gag.com/gag/ajqEV90?ref=fbp`
 - post_reactions: 1297326, post_likes: 1149630
 - post_comments: 20093, post_shares: 209506
@@ -44,12 +46,17 @@ LIKE / WOW / HAHA / SAD / ANGRY / THANKFUL
 
 - post_id: "57972945858_10154109988750859"
 - user_id: "766918176681835"
-- user_name: "Trent Porter"
+    - You can see from `www.facebook.com/[user_id]`
 - reaction_type: "LIKE"
+- user_name: "Trent Porter"
+
 
 # Comment
 
+Ex. [Comment on "Conway on Trump’s Hamilton feud: ‘Who is to say that he can't do that’"](http://www.facebook.com/10154022159491680_10154022206161680)
+
 - comment_id: "10154022206161680" or "10154022159491680_10154022206161680"
+    - You can see from `www.facebook.com/[comment_id]`
 - comment_message: "I'm getting really sick of seeing Ann Coulter-Lite's crazed, glassy-eyed face plastered all over the place, and Trump hasn't even been sworn in yet."
 - user_id: "100011100251277"
 - post_id: "62317591679_10154022159491680"
@@ -127,4 +134,3 @@ pandas.read_csv("input/page/1000-page-info.csv")
 cd "~/analysis-ideology"
 insheet using "input/page/1000-page-info.csv", clear
 ```
-
