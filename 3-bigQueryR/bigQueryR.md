@@ -24,7 +24,8 @@ pull_data = bqr_query(projectId = "ntufbdata",
                                       PC1_std AS ideology_score, 
                                       party
                                  FROM politician_pca
-                                WHERE PC1_std > 0 AND page_name IS NOT null")
+                                WHERE PC1_std > 0 AND 
+                                      page_name IS NOT null")
 length(which(pull_data$party=="Republican"))
 length(which(pull_data$party=="Uncertain"))
 ```
