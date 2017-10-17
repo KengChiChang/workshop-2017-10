@@ -17,7 +17,6 @@ institute: "National Taiwan University"
 # Page
 
 Ex. [Donald J. Trump](http://www.facebook.com/153080620724)
-
 - page_id: "153080620724"
     - You can see from `www.facebook.com/[page_id]`
 - page_name: "Donald J. Trump"
@@ -28,7 +27,6 @@ Ex. [Donald J. Trump](http://www.facebook.com/153080620724)
 # Post (Link / Photo / Video / Status)
 
 Ex. [White House Photographer Reveals Favourite Photos Of Obama](http://www.facebook.com/21785951839_10155113971791840)
-
 - post_id: "153080620724" or "21785951839_153080620724"
     - You can see from `www.facebook.com/[post_id]`
 - post_name: "Official White House Photographer Reveals His Favourite Photos Of Obama"
@@ -43,7 +41,6 @@ Ex. [White House Photographer Reveals Favourite Photos Of Obama](http://www.face
 # Reaction
 
 LIKE / WOW / HAHA / SAD / ANGRY / THANKFUL
-
 - post_id: "57972945858_10154109988750859"
 - user_id: "766918176681835"
     - You can see from `www.facebook.com/[user_id]`
@@ -54,7 +51,6 @@ LIKE / WOW / HAHA / SAD / ANGRY / THANKFUL
 # Comment
 
 Ex. [Comment on "Conway on Trump’s Hamilton feud: ‘Who is to say that he can't do that’"](http://www.facebook.com/10154022159491680_10154022206161680)
-
 - comment_id: "10154022206161680" or "10154022159491680_10154022206161680"
     - You can see from `www.facebook.com/[comment_id]`
 - comment_message: "I'm getting really sick of seeing Ann Coulter-Lite's crazed, glassy-eyed face plastered all over the place, and Trump hasn't even been sworn in yet."
