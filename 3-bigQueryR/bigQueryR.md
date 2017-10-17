@@ -14,6 +14,9 @@ bqr_auth()
 
 # Pulling Data from BigQuery to R
 
+1. Data sent to R should be less than 10000 rows
+2. Check the data type limitation for big integers
+
 ```r
 pull_data = bqr_query(projectId = "ntufbdata",
                       datasetId = "politician_info",
@@ -63,6 +66,9 @@ for (i in 1:5) {
 ```
 
 # Export to Google Cloud Storage
+
+1. Must use a Google Cloud Storage path
+2. This overwrites table of same name automaticlly
 
 ```r
 for (i in 1:5) {
