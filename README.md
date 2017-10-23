@@ -38,5 +38,5 @@
 5.  Use MySQL on server
     - Import and extract Facebook data on server using MySQL.
     - Slides:
-      - [Markdown](4-MySQL/MySQL.md)
-      - [PDF](https://github.com/NTUUSFB/workshop-2017-10/raw/master/4-MySQL/MySQL.pdf)
+      - [Markdown](5-MySQL/MySQL.md)
+      - [PDF](https://github.com/NTUUSFB/workshop-2017-10/raw/master/5-MySQL/MySQL.pdf)
