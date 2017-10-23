@@ -36,7 +36,7 @@
       - [Jupyter Notebook](https://github.com/NTUUSFB/fbscore/blob/master/fbscore-demo.ipynb)
 
 5.  Use MySQL on server
-   - Import and extract Facebook data on server using MySQL.
-   - Slides:
-     - [Markdown](4-MySQL/MySQL.md)
-     - [PDF](https://github.com/NTUUSFB/workshop-2017-10/raw/master/4-MySQL/MySQL.pdf)
+    - Import and extract Facebook data on server using MySQL.
+    - Slides:
+      - [Markdown](4-MySQL/MySQL.md)
+      - [PDF](https://github.com/NTUUSFB/workshop-2017-10/raw/master/4-MySQL/MySQL.pdf)
