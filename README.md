@@ -30,10 +30,10 @@
 4.  `fbscore` package
     - A Python package to calculate user and page ideology scores using user's 
       like records of Facebook pages.
-    - [The package](https://github.com/NTUUSFB/fbscore)
-    - Demo: 
+    - The package is currently mainly for internal use and is still updating.
+    - You can see a demo here: 
       - [HTML](https://htmlpreview.github.io/?https://github.com/NTUUSFB/workshop-2017-10/blob/master/4-fbscore/fbscore-demo.html) 
-      - [Jupyter Notebook](https://github.com/NTUUSFB/fbscore/blob/master/fbscore-demo.ipynb)
+      - [Jupyter Notebook](4-fbscore/fbscore-demo.ipynb)
 
 5.  Use MySQL on server
     - Import and extract Facebook data on server using MySQL.
